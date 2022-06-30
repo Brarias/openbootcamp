@@ -5,5 +5,9 @@ def areaTriangulo(base, altura):
     return (base* altura) / 2
 
 
-resultado = areaTriangulo(3, 4)
+def areaCirculo(radio):
+    PI = 3.14
+    return PI*(radio ** 2)
+
+resultado = areaCirculo(4)
 print(resultado)
